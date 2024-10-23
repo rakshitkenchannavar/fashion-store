@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="SHOPPING.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">FashionStore</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Sale</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Wishlist</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+        </div>
+        <div class="user-actions">
+            <a href="#">Login</a>
+            <a href="#">Cart (0)</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="image/slide2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="image/slide1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="image/slide3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <h2>DRESSES</h2>
+        <div class="product-grid">
+            <!-- Repeat for each product -->
+            <div class="product">
+                <img src="image/DRESS.jpeg" alt="Product 1">
+                
+            </div>
+        </div>
+       
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+      <h2>Shop by Category</h2>
+        <section id="pricing">
+            <div class="container">
+            <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+              <h1 class="display-4 fw-normal text-body-emphasis">Pricing</h1>
+              <p class="fs-5 text-body-secondary">"I love buying things from online Because when they arrive it feels like a Gift to me from me."</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+              <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                  <div class="card-header py-3">
+                    <h3 class="my-0 fw-normal">Sneakers</h3>
+                    <h5 class="my-0 fw-normal">Step into Uniqueness</h5>
+                    <h5> <div class="a-section a-spacing-none aok-align-center aok-relative"> <span class="aok-offscreen">   ₹2500.00 with 30 percent savings    </span>          <span aria-hidden="true" class="a-size-large a-color-price savingPriceOverride aok-align-center reinventPriceSavingsPercentageMargin savingsPercentage"></span>         <span class="a-price aok-align-center reinventPricePriceToPayMargin priceToPay" data-a-size="xl" data-a-color="base"><span class="a-offscreen"> </span><span aria-hidden="true"><span class="a-price-symbol"></span><span class="a-price-whole"></span></span></span>               <span id="taxInclusiveMessage" class="a-size-mini a-color-base aok-align-center aok-nowrap">  </span>          </div></h5>
+                  </div>
+                  <div class="card-body">
+                    <img class="rak"src="image/shoes.jpeg">
+                    <button type="button" class="w-100 btn btn-lg btn-outline-primary">get it now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                  <div class="card-header py-3">
+                    <h3 class="my-0 fw-normal">Watches</h3>
+                    <h5 class="my-0 fw-normal">Between 500-1000 Rupees</h5>
+                  </div>
+                  <div class="card-body">
+                   <img class="rak" src="image/watch.jpg">
+                    
+                    <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                  <div class="card-header py-3 text-bg-primary border-primary">
+                    <h3 class="my-0 fw-normal">Home Accessories</h3>
+                    <h5> make your house beautiful</h5>
+                  </div>
+                 
+                  <div class="container"></div>
+                  <div class="card-body">
+                    <img class="rak" src="image/sofa.jpeg">
+                   
+                    <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </section>
+        
+        
+        
+    </section>
+
+    <!-- New Arrivals -->
+    <section class="new-arrivals">
+        
+    <h2>New Arrivals</h2>
+    <div class="new">
+        <div class="product-carousel">
+            <!-- Repeat for each new arrival -->
+            <div class="product">
+                <img src="image/tshirt.jpeg" alt="men 1">
+                <div class="product-info">
+                    <h3>Nike Tshirt </h3>
+                    <p>All different Sizes Available</p>
+                    <p>Starts from 399</p>
+                    <a href="#" class="quick-view">Quick View</a>
+                </div>
+            </div>
+        </div>
+        <div class="product-carousel">
+            <!-- Repeat for each new arrival -->
+            <div class="product">
+                <img src="image/s1.jpeg" alt="sneakers">
+                <div class="product-info">
+                    <h4>Women Sneakers</h4>
+                    <p>Casual Sneakers </p>
+                    <p>starts from 499</p>
+                    <a href="#" class="quick-view">Quick View</a>
+                </div>
+            </div>
+        </div>
+        <div class="product-carousel">
+            <!-- Repeat for each new arrival -->
+            <div class="product">
+                <img src="image/headphone.jpeg" alt="perfume">
+                <div class="product-info">
+                    <h3>Amouage</h3>
+                    <p>Wireless headphone</p>
+                    <p>With large Earcups</p>
+                    <p>Enjoy the music</p>
+                    <a href="#" class="quick-view">Quick View</a>
+                </div>
+            </div>
+        </div>
+        <div class="product-carousel">
+            <!-- Repeat for each new arrival -->
+            <div class="product">
+                <img src="image/hoodie.jpeg" alt="New Arrival 1">
+                <div class="product-info">
+                    <h3>Hoodies</h3>
+                    <p>obey garden fairy Backprint</p>
+                    <a href="#" class="quick-view">Quick View</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Sale Section -->
+    <section class="sale">
+        <h2>Sale</h2>
+        
+        <div class="bxc-grid__row bxc-grid--no-gutter   bxc-grid__row--light  ">
+
+            <div class="bxc-grid__column  bxc-grid__column--12-of-12   bxc-grid__column--light">
+
+        <div class="bxc-grid__content   bxc-grid__content--light  celwidget" cel_widget_id="acsux-widgets_content-grid_merchandised-search-5_row1-col1" data-csa-c-id="wk6ehn-of8jj7-8z3fvf-v674ep" data-cel-widget="acsux-widgets_content-grid_merchandised-search-5_row1-col1">
+<script type="text/javascript">
+function handleIframeSize (obj) {
+
+    observePopUpIframe(obj)
+
+    function resizeIframe (obj) {
+        if (obj && obj.contentWindow && obj.contentWindow.document && obj.contentWindow.document.body
+            && obj.contentWindow.document.body.offsetHeight && obj.contentWindow.document.body.offsetHeight > 200) {
+            obj.style.height = obj.contentWindow.document.body.offsetHeight + 'px';
+        } else {
+            obj.style.height = '200px';
+        }
+    };
+
+    function observePopUpIframe (obj) {
+        const iframeContent = obj.contentWindow.document.body;
+        const config = { attributes: true, childList: true, subtree: true };
+
+        const callback = function() {
+            resizeIframe(obj);
+        };
+
+        const observer = new MutationObserver(callback);
+        observer.observe(iframeContent, config);
+
+        obj.contentWindow.onbeforeunload = function(e) {
+            observer.disconnect();
+        };
+    }
+}
+</script>
+<div class="bxc-grid__image   bxc-grid__image--light">
+<img src="https://images-eu.ssl-images-amazon.com/images/G/31/AF/img24/Fashion/AF/BAU/Freedelivery/pc_FD.jpg" alt="header"></div>
+
+</div>
+</div>
+</div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial-grid">
+            <!-- Repeat for each testimonial -->
+            <div class="testimonial">
+                <p>"Great products and amazing service!"</p>
+                <p>- John Doe</p>
+                <div class="stars">★★★★☆</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <form>
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+        </form>
+        <p>Get 10% off your first order</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="#">About Us</a>
+            <a href="#">FAQ</a>
+            <a href="#">Shipping & Returns</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+        <div class="contact-info">
+            <p> Karnataka St, Hassan City, FC 573201</p>
+            <p>Email: rakshit@fashionstore.com</p>
+            <p>Phone: (973) 466-7220</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
